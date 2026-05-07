@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JR Digital Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+    body{background:#f7f9fc;color:#111827;overflow-x:hidden;}
+    html{scroll-behavior:smooth;}
+    header{background:#fff;box-shadow:0 2px 15px rgba(0,0,0,0.08);position:sticky;top:0;z-index:1000;}
+    nav{width:90%;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:15px 0;}
+    .logo{display:flex;align-items:center;gap:10px;}
+    .logo img{width:55px;border-radius:10px;}
+    .logo h2{font-size:22px;color:#2563eb;}
+    .menu{display:flex;gap:25px;}
+    .menu a{text-decoration:none;color:#111827;font-weight:500;transition:0.3s;}
+    .menu a:hover{color:#22c55e;}
+    .hero{width:90%;margin:auto;min-height:90vh;display:flex;justify-content:space-between;align-items:center;gap:40px;padding:60px 0;}
+    .hero-text h1{font-size:55px;line-height:1.2;margin-bottom:20px;color:#111827;}
+    .hero-text span{color:#2563eb;}
+    .hero-text p{font-size:18px;line-height:1.8;margin-bottom:30px;color:#4b5563;}
+    .btn{display:inline-block;padding:15px 30px;background:#22c55e;color:#fff;text-decoration:none;border-radius:50px;font-weight:600;transition:0.3s;box-shadow:0 10px 20px rgba(34,197,94,0.2);}
+    .btn:hover{transform:translateY(-5px);background:#16a34a;}
+    .hero-image img{width:100%;max-width:500px;animation:float 4s ease-in-out infinite;}
+    @keyframes float{0%{transform:translateY(0px)}50%{transform:translateY(-20px)}100%{transform:translateY(0px)}}
+    section{padding:80px 10%;}
+    .section-title{text-align:center;margin-bottom:50px;}
+    .section-title h2{font-size:40px;color:#111827;margin-bottom:10px;}
+    .section-title p{color:#6b7280;}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
+    .service-box{background:#fff;padding:35px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.06);transition:0.4s;text-align:center;}
+    .service-box:hover{transform:translateY(-10px);}
+    .service-box h3{margin:20px 0 10px;color:#2563eb;}
+    .service-box p{color:#6b7280;line-height:1.7;}
+    .dollar-rate{background:#2563eb;color:#fff;border-radius:25px;text-align:center;padding:50px;}
+    .dollar-rate h2{font-size:42px;margin-bottom:15px;}
+    .portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;}
+    .portfolio img{width:100%;border-radius:20px;transition:0.4s;box-shadow:0 10px 20px rgba(0,0,0,0.08);}
+    .portfolio img:hover{transform:scale(1.05);}
+    .review-section{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;}
+    .review-box{background:#fff;padding:30px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.06);}
+    .review-box h3{color:#22c55e;margin-bottom:15px;}
+    .contact-box{background:#111827;color:#fff;text-align:center;border-radius:25px;padding:60px 30px;}
+    .contact-box h2{font-size:42px;margin-bottom:20px;}
+    footer{background:#0f172a;color:#fff;text-align:center;padding:20px;margin-top:60px;}
+    .whatsapp{position:fixed;bottom:20px;right:20px;background:#22c55e;color:#fff;width:65px;height:65px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:30px;text-decoration:none;box-shadow:0 10px 20px rgba(0,0,0,0.2);z-index:999;}
+    @media(max-width:900px){.hero{flex-direction:column;text-align:center}.hero-text h1{font-size:38px}.menu{display:none}}
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">
+      <img src="logo.png" alt="JR Logo">
+      <h2>JR Digital Marketing</h2>
+    </div>
+    <div class="menu">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Grow Your Business With <span>JR Digital Marketing</span></h1>
+    <p>Facebook Posting, YouTube Boosting, Dollar Sell, Digital Card Sell এবং বিভিন্ন Digital Marketing Service দ্রুত ও নিরাপদভাবে পেতে এখনই যোগাযোগ করুন।</p>
+    <a href="https://wa.me/8801316112465" class="btn">WhatsApp Now</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Digital Marketing">
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title"><h2>Our Services</h2><p>Professional Digital Marketing Solutions</p></div>
+  <div class="services">
+    <div class="service-box"><h3>Facebook Posting</h3><p>Professional Facebook Posting & Social Media Content Service.</p></div>
+    <div class="service-box"><h3>YouTube Boosting</h3><p>Boost your YouTube Video Views, Subscribers & Engagement.</p></div>
+    <div class="service-box"><h3>Dollar Sell</h3><p>Trusted Dollar Buy & Sell Service with Fast Support.</p></div>
+    <div class="service-box"><h3>Digital Card Sell</h3><p>Premium Digital Card Selling Service Available.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="dollar-rate">
+    <h2>Today's Dollar Rate</h2>
+    <p>Buy Rate: 121 BDT | Sell Rate: 123 BDT</p><br>
+    <a href="https://wa.me/8801316112465" class="btn">Get Rate Now</a>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="section-title"><h2>Portfolio Gallery</h2><p>Our Recent Work & Digital Marketing Projects</p></div>
+  <div class="portfolio">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop" alt="portfolio">
+    <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=1200&auto=format&fit=crop" alt="portfolio">
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="portfolio">
+  </div>
+</section>
+
+<section>
+  <div class="section-title"><h2>Fiverr & Upwork Reviews</h2><p>Trusted By International Clients</p></div>
+  <div class="review-section">
+    <div class="review-box"><h3>Fiverr 1500+ Reviews</h3><p>We provide premium quality digital marketing services with fast delivery and professional support.</p></div>
+    <div class="review-box"><h3>Upwork 700+ Reviews</h3><p>Trusted freelancer with long-term client relationships and high-quality service.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p>WhatsApp / Call: 01316112465</p><br>
+    <a href="https://wa.me/8801316112465" class="btn">Message On WhatsApp</a>
+  </div>
+</section>
+
+<footer><p>© 2026 JR Digital Marketing | All Rights Reserved</p></footer>
+<a href="https://wa.me/8801316112465" class="whatsapp">✆</a>
+</body>
+</html>
